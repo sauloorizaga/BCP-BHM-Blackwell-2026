@@ -22,6 +22,11 @@ CH3D_GPU_project_2025_BCP(dt, M1, iter, tfinal, N)
 % Example parameters
 dt=0.01; M1=7.5; tfinal=100; N=256;
 ```
+## Output
+Runnig the code **visualization.m** will generate the following plot
+
+<img src="BCP.png" width=400px height=400px>
+
 
 ## Citation
 If you use this code please cite:
