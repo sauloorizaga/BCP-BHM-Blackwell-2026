@@ -1,5 +1,5 @@
 # BCP-BHM-Blackwell-2026
-First benchmark of 512³ 3D phase-field simulations  on consumer NVIDIA Blackwell GPUs via the BHM scheme  in MATLAB 2026a. Companion code for Orizaga et al. (2026).
+First benchmark of 512³ 3D phase-field simulations  on consumer NVIDIA Blackwell GPUs via the BHM scheme  in MATLAB 2026a.  
 
 Companion code for:
 Orizaga et al. (2026), *Computers and Mathematics 
@@ -23,7 +23,7 @@ CH3D_GPU_project_2025_BCP(dt, M1, iter, tfinal, N)
 dt=0.01; M1=7.5; tfinal=100; N=256;
 ```
 ## Output
-Runnig the codes: **CH#D_GPU_project_2025.BCP.m** followed by **visualization.m** will generate the following plot
+Runnig the codes: **CH3D_GPU_project_2025.BCP.m** followed by **visualization.m** will generate the following plot
 
 <img src="BCP.png" width=400px height=400px>
 
