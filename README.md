@@ -5,10 +5,6 @@ First benchmark of 512³ 3D phase-field simulations  on consumer NVIDIA Blackwel
 # BCP-BHM-Blackwell-2026
 
 Companion code for:
-
-**"First Benchmark of 512³ 3D Phase-Field Simulations 
-on Consumer NVIDIA Blackwell GPUs via BHM in MATLAB 2026"**
-
 Orizaga et al. (2026), *Computers and Mathematics 
 with Applications* (under review).
 
