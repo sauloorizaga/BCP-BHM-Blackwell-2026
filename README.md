@@ -23,7 +23,7 @@ CH3D_GPU_project_2025_BCP(dt, M1, iter, tfinal, N)
 dt=0.01; M1=7.5; tfinal=100; N=256;
 ```
 ## Output
-Runnig the codes: **CH3D_GPU_project_2025.BCP.m** followed by **visualization.m** will generate the following plot
+Running the codes: **CH3D_GPU_project_2025_BCP.m** followed by **visualization.m** will generate the following plot
 
 <img src="BCP.png" width=400px height=400px>
 
