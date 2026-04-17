@@ -1,6 +1,11 @@
 # BCP-BHM-Blackwell-2026
 First benchmark of 512³ 3D phase-field simulations  on consumer NVIDIA Blackwell GPUs via the BHM scheme  in MATLAB 2026a.  
 
+
+# Why BHM?
+Unlike SAV or Convex-Splitting methods, the Biharmonic-Modified (BHM) scheme avoids system enlargement and auxiliary variables. This linear, single-solve structure is essential for memory-dominated regimes, enabling 
+ double-precision simulations on 24GB GPUs where other methods would typically trigger VRAM overflow.
+
 Companion code for:
 Orizaga et al. (2026), *Computers and Mathematics 
 with Applications* (under review).
