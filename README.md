@@ -39,3 +39,6 @@ Running the codes: **CH3D_GPU_project_2025_BCP.m** followed by **visualization.m
 If you use this code please cite:
 Orizaga et al. (2026), Computers and Mathematics 
 with Applications.
+
+### Historical Note: 
+The BHM methodology was originally developed to resolve the numerical challenges of variable-mobility Cahn-Hilliard equations. However, our research [Orizaga et al., 2024] demonstrated that the scheme provides superior memory efficiency even for constant-mobility systems. This work extends that benefit to the 3D Block Copolymer (BCP) model, leveraging the scheme's minimal memory footprint to break the barrier on consumer GPUs.
