@@ -1,5 +1,4 @@
-%Single Script to perform visualizations of GPU
-%computations from a .mat file
+% Single Script to perform visualizations of GPU computations
 tic;
 N=128;        %user changes the N value here
 M1=5;iter=1;tfinal=10;dt = 0.01; 
@@ -29,4 +28,3 @@ a=toc;
 minutes=a/60;
 hours=a/60^2;
 minutes_hours=[minutes hours]
-max(max(max(U)))
