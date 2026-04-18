@@ -1,5 +1,5 @@
 %This code applies BHM method to the BCP equation in 3D
-function [Stability]=CH3D_GPU_project_2026_BCP(dt,M1,iter,tfinal,N)
+function [Stability]=CH3D_GPU_project_2026_BCP(dt,M1,tfinal,N)
 
 M=2;
 a=0;
