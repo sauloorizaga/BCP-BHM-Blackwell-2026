@@ -1,4 +1,4 @@
-# Disturbing the Peace at HPC Centers: Bringing 40x Data-Center Performance to the Individual Workstation.
+# Scaling 3D Phase-Field Simulations to 512^3 via GPU on Laptops
 
 # BCP-BHM-Blackwell-2026
 First benchmark of 512³ 3D phase-field simulations  on consumer NVIDIA Blackwell GPUs via the BHM scheme  in MATLAB 2026a.  
