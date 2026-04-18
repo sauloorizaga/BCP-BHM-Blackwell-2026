@@ -1,9 +1,9 @@
 % Single Script to perform visualizations of GPU computations
 tic;
 N=128;        %user changes the N value here
-M1=5;iter=1;tfinal=10;dt = 0.01; 
+M1=5;tfinal=10;dt = 0.01; 
 a=0;b=2*pi;
-CH3D_GPU_project_2026_BCP(dt,M1,iter,tfinal,N)
+CH3D_GPU_project_2026_BCP(dt,M1,tfinal,N)
 
 h=(b-a)/N;
 load('U_numerical','U');
