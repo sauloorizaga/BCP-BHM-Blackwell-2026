@@ -19,7 +19,7 @@ with Applications* (under review).
 
 ## Contents
 - `CH3D_GPU_project_2025_BCP.m`: Main BCP simulation
-- `visualization.m` — Isosurface and cross-section plots
+- `visualization.m` : Isosurface and cross-section plots
 
 ## Usage
 ```matlab
