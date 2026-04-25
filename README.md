@@ -18,7 +18,8 @@ with Applications* (under review).
 - 24GB VRAM for N=512³ simulations
 
 ## Contents
-- `CH3D_GPU_project_2025_BCP.m`: Main BCP simulation
+- `CH3D_GPU_project_2026_BCP.m`: Main BCP simulation (good up to $N=256$)
+- - `CH3D_GPU_project_2026_Nested.m`: Main BCP simulation (Nested $N=512$)
 - `visualization.m` : Isosurface and cross-section plots
 
 ## Usage
