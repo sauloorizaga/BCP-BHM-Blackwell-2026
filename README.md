@@ -19,7 +19,7 @@ with Applications* (under review).
 
 ## Contents
 - `CH3D_GPU_project_2026_BCP.m`: Main BCP simulation (good up to $N=256$)
-- - `CH3D_GPU_project_2026_Nested.m`: Main BCP simulation (Nested $N=512$)
+- - `CH3D_GPU_project_2026_Nested.m`: Main BCP simulation (nested $N=512$)
 - `visualization.m` : Isosurface and cross-section plots
 
 ## Usage
