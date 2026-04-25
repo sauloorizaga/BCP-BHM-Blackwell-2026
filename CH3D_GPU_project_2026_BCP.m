@@ -44,7 +44,7 @@ while (t <  tfinal-dt/2)
 U1 = U;         
 for i=1:1
       RHS=eps2*(M1-M)*ifftn(k4.*fftn(U1))+2*ifftn(-1*k2.*fftn(U1.^3-U1));
-      RHS=RHS/epsilon+15*(TheUbar-U1*0);  %BCP ?
+      RHS=RHS/epsilon+15*(TheUbar-U1*0);  %BCP 
       hat_rhs =hat_U + dt.*fftn(RHS);
       hat_U1 = hat_rhs./lhs;
       U1 = real(ifftn(hat_U1));
