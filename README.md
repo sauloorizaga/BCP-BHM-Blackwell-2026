@@ -30,13 +30,13 @@ CH3D_GPU_project_2025_BCP(dt, M1, iter, tfinal, N)
 dt=0.01; M1=7.5; tfinal=100; N=256;
 ```
 ## Output
-Running the codes: **CH3D_GPU_project_2026_BCP.m** followed by **visualization.m** 
+Running the codes: **CH3D_GPU_project_2026_BCP.m** followed by **visualization.m** <br>
 will generate the following plot ($\alpha$ near 0 and .39 volume fraction)
 
 <img src="512 tf10.png" width=400px height=400px>
 
 ## Output
-Running the codes: **CH3D_GPU_project_2026_Nested.m** followed by **visualization.m** 
+Running the codes: **CH3D_GPU_project_2026_Nested.m** followed by **visualization.m** <br>
 will generate the following plot ($\alpha$ near 20 and .25 volume fraction)
 
 <img src="512 tf10a.png" width=400px height=400px> <img src="512 tf10b.png" width=400px height=400px>
