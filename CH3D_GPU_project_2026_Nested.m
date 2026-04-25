@@ -1,6 +1,6 @@
 % This code applies BHM method to BCP model in 3D - Nested Version
 % Memory saving Code : Written on 4-1-2026 with no energy computation
-function [Stability]=CH3D_GPU_project_2026_Nested(dt,M1,iter,tfinal,N)
+function [Stability]=CH3D_GPU_project_2026_Nested(dt,M1,tfinal,N)
 alpha=20;
 a=0;b=M*pi;
 %number of grid points N
