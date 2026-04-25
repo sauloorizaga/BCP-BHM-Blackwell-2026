@@ -35,7 +35,7 @@ it = 0; j=0; nn=0;   t = 0.0;
 TheUbar=((1/(2*pi))^3)*h*h*h*sum(sum(sum(U)));
 %constant mobility 
 M=1;
-while (t <  tfinal-dt*1*0-.0000001 )
+while (t <  tfinal-dt/2 )
 U1 = U;  %Just Eyres scheme - no initial guess        
 for i=1:1
       hat_U1 = (hat_U + dt.*fftn((eps2*(M1-M)*ifftn(k4.*fftn(U1))+2*ifftn(-1*k2.*fftn(U1.^3-U1)))/epsilon+alpha*(TheUbar-U1*0)))./lhs;
