@@ -9,14 +9,12 @@ h=(b-a)/N;
 
 %xgrid formtation (a b] and eventually (a b]^2
 x=(a:h:b-h);
-x=gpuArray(x);       %-----------------------%GPU vs CPU      1
-%x=single(x);
 
 [X,Y,Z] = meshgrid(x,x,x);
 
 %wave number generation (same as in 1D)
 k=[[0:N/2] [-N/2+1:-1]]./(M/2);
-k=gpuArray(k);       %-----------------------%GPU vs CPU     2
+k=gpuArray(k);       %-----------------------%GPU vs CPU     1
 %k=single(k);
 
 %now in 2-d, here k2 means k^2  and k=(k1,k2) 
@@ -26,7 +24,7 @@ k=gpuArray(k);       %-----------------------%GPU vs CPU     2
 
 %Initial Condition----------------------
 U=0.01*rand(N,N,N)+.5*0;
-U=gpuArray(U);        %------------------------%GPU vs CPU    3
+U=gpuArray(U);        %------------------------%GPU vs CPU    2
 %U=single(U);
 
 %parameters
