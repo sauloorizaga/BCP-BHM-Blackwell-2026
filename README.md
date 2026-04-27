@@ -25,7 +25,7 @@ with Applications* (under review).
 ## Usage
 ```matlab
 % Run simulation
-CH3D_GPU_project_2025_BCP(dt, M1, iter, tfinal, N)
+CH3D_GPU_project_2026_BCP(dt, M1, iter, tfinal, N)
 
 % Example parameters
 dt=0.01; M1=7.5; tfinal=100; N=256;
