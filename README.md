@@ -54,5 +54,5 @@ Manuscript submitted to Computers & Mathematics with Applications.
 Code available at:
 https://github.com/sauloorizaga/BCP-BHM-Blackwell-2026
 
-### Historical Note: 
-The BHM methodology was originally developed to resolve the numerical challenges of variable-mobility Cahn-Hilliard equations. However, our research [Orizaga et al., 2024] demonstrated that the scheme provides superior memory efficiency even for constant-mobility systems. This work extends that benefit to the 3D Block Copolymer (BCP) model, leveraging the scheme's minimal memory footprint to break the barrier on consumer GPUs.
+### Historical Note:
+The BHM methodology was originally developed to resolve the numerical challenges of variable-mobility Cahn-Hilliard equations. However, our research [[Orizaga & Witelski, 2024]](https://www.sciencedirect.com/science/article/pii/S0927025624003665) demonstrated that the scheme provides superior memory efficiency even for constant-mobility systems. This work extends that benefit to the 3D Block Copolymer (BCP) model, leveraging the scheme's minimal memory footprint to break the barrier on consumer GPUs.
